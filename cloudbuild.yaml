@@ -5,4 +5,6 @@ steps:
     - -t
     - 'gcr.io/entrenamiento1/hello-world:latest'
     - .
+options:
+  logging: CLOUD_LOGGING_ONLY
 images: ['gcr.io/entrenamiento1/hello-world:latest']
