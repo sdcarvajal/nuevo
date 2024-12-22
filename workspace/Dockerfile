@@ -1,4 +1,4 @@
-FROM gcr.io/google-appengine/python:3.7
+FROM gcr.io/google-appengine/python:latest
 
 WORKDIR /app
 
